@@ -1,0 +1,15 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>&#28155;&#21152;&#23383;&#27573;</Name><AddInID>{ac52c699-c223-4c8a-bf2e-9c2bef9bcc1a}</AddInID><Description>&#28155;&#21152;&#30456;&#21516;&#23383;&#27573;&#12290;add a field from a layer to another according to feature location</Description><Version>1.0</Version><Image /><Author>&#21556;&#39134;&#40857;</Author><Company>shanwei surveying and mapping technological servive co., ltd.</Company><Date>07/18/2019</Date><Targets><Target name="Desktop" version="10.2" /></Targets><AddIn language="PYTHON" library="RoadConvertsion_AddField_addin.py" namespace="RoadConvertsion_AddField_addin"><ArcMap>
+    <Commands>
+        <ComboBox caption="&#23383;&#27573;&#25152;&#22312;&#22270;&#23618;" category="&#28155;&#21152;&#23383;&#27573;" class="ComboBoxClass1" id="RoadConvertsion_AddField_addin.combobox" itemSizeString="WWWWWW" message="" rows="4" sizeString="WWWWWW" tip=""><Help heading="" /></ComboBox>
+        <ComboBox caption="&#36873;&#25321;&#23383;&#27573;" category="&#28155;&#21152;&#23383;&#27573;" class="ComboBoxClass2" id="RoadConvertsion_AddField_addin.combobox_1" itemSizeString="WWWWWW" message="" rows="4" sizeString="WWWWWW" tip=""><Help heading="" /></ComboBox>
+        <ComboBox caption="&#30446;&#26631;&#22270;&#23618;" category="&#28155;&#21152;&#23383;&#27573;" class="ComboBoxClass3" id="RoadConvertsion_AddField_addin.combobox_2" itemSizeString="WWWWWW" message="" rows="4" sizeString="WWWWWW" tip=""><Help heading="" /></ComboBox>
+        <Button caption="&#24320;&#22987;&#28155;&#21152;" category="&#28155;&#21152;&#23383;&#27573;" class="ButtonClass1" id="RoadConvertsion_AddField_addin.button" image="" message="" tip=""><Help heading="" /></Button>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="&#25353;&#20301;&#32622;&#28155;&#21152;&#23383;&#27573;" category="&#28155;&#21152;&#23383;&#27573;" id="RoadConvertsion_AddField_addin.toolbar" showInitially="true"><Items><ComboBox refID="RoadConvertsion_AddField_addin.combobox" /><ComboBox refID="RoadConvertsion_AddField_addin.combobox_1" /><ComboBox refID="RoadConvertsion_AddField_addin.combobox_2" /><Button refID="RoadConvertsion_AddField_addin.button" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
